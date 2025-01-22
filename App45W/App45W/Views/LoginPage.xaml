@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:viewmodels="clr-namespace:App45W.ViewModels" x:DataType="viewmodels:LoginViewModel"
+             mc:Ignorable="d"
+             x:Class="App45W.Views.LoginPage"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackLayout BackgroundColor="#96d1ff" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                        <Image Source="Logo_imcr.png" VerticalOptions="Center" HeightRequest="64" />
+                    </ContentView>
+                </StackLayout>
+            </StackLayout>
+
+            <Label Grid.Row="1" Padding="0,20,0,20" Text="Login de Usuario" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold"/>
+            
+            <Label Grid.Row="2" Padding="0,20,0,0" Text="Usuario" HorizontalOptions="Fill" FontSize="20" FontAttributes="Bold"/>
+
+            <Entry Grid.Row="3" Text="{Binding Usuario, Mode=TwoWay}"  HorizontalOptions="Fill" Placeholder="Ingrese su nombre de usuario" x:Name="txt_usuario">
+            </Entry>
+
+            <Label Grid.Row="4" Padding="0,10,0,0" Text="Contraseña" HorizontalOptions="Fill" FontSize="20" FontAttributes="Bold"/>
+            <Entry Grid.Row="5" Text="{Binding Password, Mode=TwoWay}"  HorizontalOptions="Fill" IsPassword="true" Placeholder="Ingrese su contraseña" x:Name="txt_pass">
+            </Entry>
+         
+            <StackLayout Grid.Row="6" Padding="10,50,10,0" VerticalOptions="Center" >
+                <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+            </StackLayout>
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

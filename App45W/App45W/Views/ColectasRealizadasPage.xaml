@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.ColectasRealizadasPage"
+             Title="Colectas Realizadas">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Colectas Realizadas"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"/>
+            <Grid Margin="0,10,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Cód. Art" Grid.Row="0" Grid.Column="0" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="Artículo" Grid.Row="0" Grid.Column="1" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="Cantidades Colectadas" Grid.Row="0" Grid.Column="2" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            </Grid>
+
+            <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,5,0,5"/>
+
+            <ScrollView>
+                <ListView x:Name="lvw_colectasRealizadas" ItemsSource="{Binding Colectas}" ItemSelected="lvw_colectasRealizadas_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding ArticuloCodigo}" Grid.Row="0" Grid.Column="0" FontSize="12" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Articulo}" Grid.Row="0" Grid.Column="1" FontSize="12" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding CantidadColectada}" Grid.Row="0" Grid.Column="2" FontSize="12" HorizontalTextAlignment="Center"/>
+
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+            <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,5,0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="btn_deleteColectas" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Margin="10,0,10,10" Text="Borrar Todas las Colectas"
+                 Clicked="btn_deleteColectas_Clicked"
+                 IsEnabled="{Binding BotonActivo}"
+                 BackgroundColor="{StaticResource Primary}"
+                 TextColor="White" />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

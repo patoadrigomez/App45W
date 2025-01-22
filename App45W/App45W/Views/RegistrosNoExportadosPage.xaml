@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.RegistrosNoExportadosPage"
+             Title="Registros no Exportados">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registros No Exportados"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"/>
+            <Grid Margin="0,10,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Cód. Art" Grid.Row="0" Grid.Column="0" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="Artículo" Grid.Row="0" Grid.Column="1" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="Unidades" Grid.Row="0" Grid.Column="2" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="Envases" Grid.Row="0" Grid.Column="3" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            </Grid>
+
+            <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,5,0,5"/>
+
+            <ScrollView>
+                <ListView x:Name="lvw_registrosNoExportados" ItemsSource="{Binding RegistrosNoExportados}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="50"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding ArticuloCodigo}" Grid.Row="0" Grid.Column="0" FontSize="12" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding ArticuloDescripcion}" Grid.Row="0" Grid.Column="1" FontSize="12" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Cantidad}" Grid.Row="0" Grid.Column="2" FontSize="12" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Envases}" Grid.Row="0" Grid.Column="3" FontSize="12" HorizontalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+            <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,5,0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="btn_DeleteRegistros" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Margin="10,0,10,10" Text="Borrar Registros"
+                 Clicked="btn_DeleteRegistros_Clicked"
+                 IsEnabled="{Binding BotonActivo}"
+                 BackgroundColor="{StaticResource Primary}"
+                 TextColor="White" />
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

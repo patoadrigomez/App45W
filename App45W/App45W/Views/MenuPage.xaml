@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.MenuPage"
+             Title="MenuPage">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menú Principal" FontAttributes="Bold" FontSize="Medium" Margin="5,15" TextColor="Black" VerticalOptions="Center" HorizontalTextAlignment="Center"/>
+            <ListView ItemsSource="{Binding listMenu}" Margin="5,25" x:Name="lstMenu"
+                      ItemTapped="lstMenu_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Grid.Column="0" Grid.Row="0" Orientation="Horizontal">
+                                    <Image Source="{Binding nombreIcon}"/>
+                                    <Label Text="{Binding nombreItem}" VerticalOptions="Center"/>
+                                </StackLayout>
+                                
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

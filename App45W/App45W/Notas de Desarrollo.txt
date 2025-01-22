@@ -1,0 +1,278 @@
+Aplicación App45W v1.2 10-08-23 
+-------------------------------------
+- Se cambia todo el diseño de la pantalla de edición de Unidades y Envases a pedido del cliente.
+
+
+Aplicación App45W v1.2 02-08-23 
+-------------------------------------
+-Se corrige el error por el cual al no poder exportarse un registro, si éste generaba un evento, ducho evento
+sí se insertaba en la base de datos remota, lo que es erróneo. Con esta modificación, solo se registran los eventos
+generados por los registros que pudieron exportarse correctamente. 
+
+Aplicación App45W v1.2 24-07-23 
+-------------------------------------
+- Se cambia todo el diseño de la pantalla de edición de Unidades y Envases.
+
+Aplicación App45W v1.2 21-07-23 
+-------------------------------------
+-Se corrige el error por el cual no se podìa ingresar a la pantalla de acopio cuando el colector tenía asignado más
+de un pedido de diferentes preparaciones. 
+- Se quita la restricción de no poder eliminar una colecta luego de acopiar todos los artículos de un pedido-preparación
+con falta total de stock.
+
+Aplicación App45W v1.2 19-07-23 
+-------------------------------------
+- Se incrementa versión a 1.2.
+- Se agrego cartel de aceptar o cancelar luego de presionar el botón "Exportar Novedades" de la pantalla de inicio.
+-Se quita la restricción de no poder importar novedades cuando quedaron registros que no se pudieron exportar por error.
+- Se cambia el formato del botón "Pedidos-Preparación" de la pantalla de inicio a pedido del cliente.
+- Se agrega la funcionalidad de habilitar/deshabilitar los botones de Importar y Exportar Novedades de acuerdo al cotexto.
+- Se agregó el nro de terminal en el toolbar principal por pedido del cliente. 
+Los cambios que se hicieron para cunplir con esto son:
+	- En About ViewModel se agregaron las propiedades correspondientes a BotonExportar/ImportarEnabled para bindearlo
+	con la propiedad IsEnabled de los botones. 
+	- En AboutViewMode se cambio el nombre de la función GetOperadorLogueadoCommand que se ejecutaba al cargarse la página por
+	GetInicioMainPageCommmand a la que se le agregó la lógica de cuando habilitar/desahbilitar los botones.
+	- En AboutViewModel dentro de la función ExecuteExportNovedadesCommand se agregó al final de la misma la sentencia 
+	 Xamarin.Forms.Application.Current.MainPage = new MainPage(); para que se recarge la página luego de una exportación y se 
+	 actualicen el estado de los botones.
+	- En ColectasRealizadasPage.xaml.cs se agregó que luego de eliminar la última colecta, la aplicación nos derive a la pantalla
+	de inicio para que al recargarse muestre el estado de los botones actualizados.
+	- En RegistrosNOExportadosPage.xaml.cs se agregó que luego de pulsar el botón "borrar todos los registros" la aplicación
+	nos derive a la pantalla de inicio para que al recargarse muestre el estado de los botones actualizados.
+	- En Menú.xaml.cs, cuando se seleccione la opción "Borrar todas las asignaciones" se agregó que la la aplicación
+	nos derive a la pantalla de inicio para que al recargarse muestre el estado de los botones actualizados.
+-Se agegó el botón "Borrar todas las colectas realizasas en la pantalla "Colectas Realizadas".
+
+Aplicación App45W v1.1 v1.0 18-07-23 
+-------------------------------------
+- Se incorporó en el módulo de edición de envases y cantidades los alert que le permiten al usuario aceptar o cancelar
+la continuidad de acopio cuando se llega al peso máximo del bolsón y cuando se ingresan menos cantidades de las requeridas
+sin que haya faltante de stock.
+- Se agregó la restrcción de que no se puedan eliminar colectas de un pedido-preparación cerrado por falta total de stock
+en todos sus artículos.
+- Se agrega la funcionalidad en la edición de unidades y envases que, cuando el usuario ingresa una cantidad menor a la requerida
+utilizando el botón "registar" y el usuario acpeta el acopio, la aplicación los lleva a la pantalla principal para que realice la
+el pesaje del bolsón y la exportación de novedades. Si el usuario desea volver al módulo de edición para corregir las unidades
+ingresadas o seguir acopiando, podrá hacrlo ingresando nuevamente a través del botón pedidos-preparación o desde la misma opción
+del menú principal. 
+
+Aplicación App45W v1.1 v1.0 17-07-23 
+-------------------------------------
+- Se corrige el error por el cual luego de borrar todas las asignaciones no se borraban todas las colectas también.
+- Se cambia de lugar la opción "Borrar todas las Asignaciones". Se quita de la pantalla principal y se manda como opción
+al menú.
+
+
+Aplicación App45W v1.1 v1.0 15-07-23 
+-------------------------------------
+- Se cambia la lógica de acopio. Hasta la versión del 14-0t, los acopios eran acumulatvos. Ahora son rectificables, por lo que
+cuando se acopia una menor cantidad de la requerida y se usa "Registrar", la aplicación dá aviso de esto, registra el acopio y
+mantiende editable ese artículo con la posibilidad de que el usuario pueda volver a editar las cantidades, lo que generará una
+rectificación de las cantidades y no una acumulación. 
+- Cuando ocurra el escenario mencionado en el punto anterior, la aplicación le indicará al usuario que ya ha acopiado ese
+artículo con una cantidad menor a la requerida. Si eso ocurrió por haber alcanzado el peso máximo del bolsón, se recomienda ir
+a la balanza a realizar el pesaje del bolsón, pero sin ser restrcitivo. Es decir, le permite seguir acopiando si asi lo desea.
+- En AboutViewModel se corrige una excepción que se daba cuando el usuario ímportaba novedades sin conexión a Wifi.
+
+Aplicación App45W v1.1 v1.0 14-07-23 
+-------------------------------------
+- Se corrige el query de la funciòn GetAcopiadoresAsync() de DbMySql dado a que invocaba a la base de datos de mcr y daba error
+en planta.
+- Se corrgie error por el cual la aplicación obligaba a leer el código de barras cuando no había nada de stock del artículo.
+- Se quita la validación de Unidades máximas de un artículo en el bolsón.
+- Se quita la restrcción de no poder seguir acopiando luego de alcanzarse el peso máximo permitido para el bolsón(25 kg). La 
+aplicación alerta al usuario de que se llegó al peso máximo, pero lo desea seguir acopiando si así lo desea. En ese caso,
+por cada colecta que realice luego de superarse el peso máximo, la aplicación se lo recordará. 
+
+Aplicación App45W v1.1 v1.0 12-07-23 
+-------------------------------------
+- Se corrige el error en el Logout por el cual el usuario podìa volver hacia atrás en la sesió luego de hacer logout.
+- Se incorpora la protección de que la aplicación móvil no pueda realizar una importación si hay artículos pendientes
+de pesar en la terminal local dependiente para ese colector acopiador. 
+- Se incorpora la la protección de que no se permita acopiar más artículos luego de una exportación exitosa(se borra toda 
+la tabla local PedidoAsignado). Asimismo, si quedaron registros que no se pudieron exportar por algún error, la aplicación
+no permitirá seguir acopiando ni importar novedades hasta que esos registros puedan ser exportados o bien se los elimine.
+- Se agrega la funcionalidad mediante la cual, el usuario puede acopiar menos cantidad que la requerida pero el artículo edita-
+ble sigue siendo el mismo, hasta que lo cierra por falta de stock, hasta que completa las unidades requeridas o hasta que alcance
+el peso máximo del bolsón.
+- En el módulo de acopio de artículos, solo el botón "Registrar" permanecerá inhabilitado hasta que se realice la lectura del 
+código de barras. El botón "Falta Stock" estará siempre habilitado pero no permitirá acopiar sin antes haber leído el código de barras.
+Esto siempre que la opción de lectura obligatoria esté habilitada en la configuración. 
+-Se agrega en el About la versíón del ensamblado.
+
+
+Aplicación App45W v1.1 v1.0 10-07-23 
+-------------------------------------
+- Se incorpora en el módulo de configuración una opción que permite hbilitar/deshablilitar la obligatoriedad de tener que
+leer el código de barras al acopiar un artículo.
+- Se corrigió el error por el cual, en la pantalla de inicio, el nombre de usuario se romple cuando su longitud excede 
+una cierta cantidad de caracteres.
+- Se corrige el error por el cual, la fecha del pedido-prepración mostraba la hora y salìa cortada en el módulo de acopio
+de artículos
+
+Aplicación App45W v1.1 v1.0 07-07-23 
+-------------------------------------
+-Se agrega en la pantalla de edición de cantidades y envases, un alert que le indica al usuario que debe ir a la pantalla de 
+inicio para realizar una exportación de los datos, ya sea porque se alcanzó el peso máximo permitido para el bolsón o porque no
+hay mas artículos para acopiar en ese pedido-preparación.
+-Se agrega la posibilidad de que el operador pueda seguir procesando el siguiente pedido-preparación en el caso de que no 
+haya podido acopiar ningún artículo del pedido-preparación anterior por falta de stock.
+-Se corrije el error por el cual una opción del menú de opciones no podìa ser seleccionada nuevamente si estaba marcada.
+Se agrega en la pantalla de edición de cantidades y envases un botón que le permite al usuario ir directo a la pantalla de inicio.
+
+Aplicación App45W v1.1 v1.0 03-07-23 
+-------------------------------------
+-Se incorporaron dentro de Models, los Enum: TYPE_COLECTA, TYPE_ESTADO_ARTIULO_ASIGNADO y TYPE_EVENTO.
+-Se coloca en la barra Toolbar principal el nombre del colector.
+-Se agrega en el módulo de edición de cantidades, un alert que le indica al usuario la cantidad máxima de envases que puede colocar por bolsón
+cuando las cantidades a preparar superan las unidades máximas permitidas por bolsón para ese artículo.
+
+Aplicación App45W v1.1 v1.0 29-06-23 
+-------------------------------------
+- Se quita la restrcción de colectar menos cantidad de unidades que las requeridas aún si hubiera stock y no se haya alcanzado
+el peso máximo del bolsón.
+- Se agregó en el módulo de edición de cantidades el botón "Falta Stock". El mismo se utiliza cuando hay que cerrar una colecta
+por falta de stock (total o parcial). Esto reemplaza el chack de Finalizado que estaba en la versión anterior. 
+
+
+Aplicación App45W v1.1 v1.0 29-06-23 
+-------------------------------------
+- Se agrega en el Toolbar principal el id del colector.
+- Se agregan íconos en las opciones del menú principal.
+- Se agrega un botón en la patalla de inicio que permite borrar toda la tabla local PedidoAsignado.
+- Se quita el botón "Ver Registros No Exportados" de la pantalla de inicio y se lo coloca como una opciòn del 
+menú principal.
+- Se modifica la funcón GetPedidosAsync() de DnMySql de manera tal que el SELECT importe tanto los registros cuyo campo de 
+EstadoAr´ticuloAsingado sea 1 o 2. 
+
+Aplicación App45W v1.1 v1.0 27-06-23 
+-------------------------------------
+- Se agrega el control de privilegio de acceso al módulo de configuración, para que solo pueda ingresar un usuario supervisor.
+- Se agrega la propiedad mapeada int PedidoOrdenAcopio a la entidad PedidoAsignado.
+- Se cambio la apariencia y estética del módulo de edición de unidades y envases. Se agregó un checkbox para indicar el finalizado.
+forzoso. 
+- Se cambió el query a través del cual se levantan las prepraciones pedidos en la pajntalla de Pedidos Asignados, agrupando por Preparación número.
+- Se agrega la funcionalidad que solo se pueda trabajar con la primera preparación de la lista en el módulo PedidosAsignados.
+- Se quitó de la vista de edición de unidades y envases la cloumna correspondiente a la propiedad "Cantidad Preparada" por resultar a piori innecesaria.
+Luego ver si realmente aporta valor agregarla. 
+- Se agregó la funcionalidad de que cuando se elimina una colecta que generó en Evento, éste también se borra de la BBDD local para que luego no sea exportado.
+
+Aplicación App45W v1.1 v1.0 26-06-23 
+-------------------------------------
+- Se corrije el error que al exportar las colectas realizadas, no se verificaba que el idEstadoArticuloAsignado sea igual a 2
+en la BBDD remota.
+- Se corrije la expeción de "fuera de rango" que a veces se daba al exportar inmediatamente después de recuperar señal WIFI.
+Esto se consigue cambiando el ciclo principal while por foreach.
+- Se agrega la pantalla para ver el listado de registros que no se puedieron exportar. Se incorpora botón para borrar todos esos
+registros así poder importar. 
+- Se agrega la funcionalidad de que la tabla Operadores solo se borre y se cargue desde la BBDD remota cuando hay conectividad
+con la misma. Esto evita que si la aplicación se cierra fuera del alcance del WIFI el usuario no pueda ingresar. 
+
+Aplicación App45W v1.1 v1.0 25-06-23 
+-------------------------------------
+- Se agrego la funcionalidad que se puedan editar conjuntamente las unidades y los envases cuando las cantidades requeridas y 
+las unidades que ingresan por envase no son divisibles.
+- Se agregó la funcionalidad de que cuando se excede el peso máximo del bolsón, la aplicación le indique al usuario cuantos
+envases y/o unidades puede incorporar en el bolsón como máximo. 
+
+Aplicación App45W v1.1 v1.0 24-06-23 
+-------------------------------------
+- Se ordenan los artículosa colectar por su Ubicación en el depósito y de ser null por el código de artículo.
+Se corrije el orden de la exportación de datos para que se actualicen todos los registros modificados. 
+- Se elimina la entidad Bolson por no ser necesaria.
+- Se agrega en l Entidad Colecta una propiedad llamada PesoColectado que sirve para ir llevando un acumulado del peso de 
+un bolsón en preparación. Esto se utiliza para controlar que no se exceda el peso máximo permitido por bolsó.
+- Se actualiza en DbLocal la función GetPesoBolson() tomando en el SELECT  la tabla Colecta. 
+- Se permite ingresar una cantidad menor a la requerida en el pedido cuando se alcanzó el peso máximo del bolsón.
+- Cuando se excede el peso máximo de un bolsón, se agrega en el Alert de aviso, la cantidad máxima de ese articulo que puede
+colocarse en el bolsón.
+
+Aplicación App45W v1.1 v1.0 23-06-23 
+-------------------------------------
+-Se agrega la función de que si no hay conectividad a la base de datos remota al iniciarse la aplicación, habiendo conexión
+WIFI, la aplicación se abre en el módulo de configuración para que se puedan cambiar los datos de conectividad con la BBDD. 
+
+Aplicación App45W v1.1 v1.0 22-06-23 
+-------------------------------------
+- Se agrega el módulo ve "Colectas realizadas" en el cual se puede ver ubu ListView con cada colecta realizada y eliminar
+una o más colectas.
+- Se corrigió el error que se daba a la hora de calcular el peso acumulado del bolsón porque se había borrado la tabla
+local Bolson. (Esto estará próximo a implementarse desde la clase Colecta.)
+
+
+Aplicación App45W v1.1 v1.0 16-05-23 
+-------------------------------------
+-Se crea la entidad Eventos correspondiente a la tabla mcr_eventos de la BBDD remota.
+-En la clase DbLocal se agrega la línea:   _sqlconnection.CreateTable<Evento>();
+- En la clase DbMySql se crea la función GetEventosAsync() que trae a una lista los datos de la tabla mcr_eventos de la BBDD remota.
+- En App.xaml.cs en la función LoadDataDBRemot() se agrega las línea para que se escriba en la entidad local Evento la información de la BBDD remota.
+
+-IMPORTANTE: En el archivo App.xaml.cs, dentro del constructor hay que declarar la siguiente lìnena para cada MOckStore que se cree para cada entidad:
+	 DependencyService.Register<MockColectorStore>();
+	 DependencyService.Register<MockPedidoDetalleAsignadoStore>();
+
+SELECCION DE OPERADOR:
+-Se agregó la opción ItemSelected en el listView de Operadores en la página de Operadores.xaml.
+-Se desarrolló dicha función en el archivo Operadores.xaml.cs.
+-En OperadoresViewModel.cs:
+	-Se agregó la siguiente línea por encima de la declaración de la clase:
+		[QueryProperty(nameof(ItemId), nameof(ItemId))]
+	-Se agregó una nueva variable privada:     private int itemId;
+	-Se hizo el get y el set de esa nueva variable itemId:
+		public int Item Id {get return itemId; set itemId = value; }
+
+
+Aplicación App45W v1.1 v1.01 15-05-23 
+-------------------------------------
+-Se crean las entidades: 
+	-PedidoDetalleAsignado correspondiente a la tabla remota (mcr_pedidosdetalleasignados)
+	-Colector correspondiente a la tabla remota (mcr_colectores)
+-En la clase DbLocal se agregan las dos líneas correspondientes para la creación de las entidades localmente:
+	- _sqlconnection.CreateTable<PedidoDetalleAsignado>();
+	- _sqlconnection.CreateTable<Colector>();
+- En la clase DbMySql se crea la función GetColectoresAsync() que trae a una lista los datos de la tabla mcr_colectores de la BBDD remota.
+- En App.xaml.cs en la función LoadDataDBRemot() se agrega las línea para que se escriba en la entidad local Colectores la información de la BBDD remota.
+- En la clase DbMySql se crea la función GetPedidosDetalleAsignadoAsync() que trae a una lista los datos de la tabla mcr_pedidosdetalleasignado de la BBDD remota.
+- En App.xaml.cs en la función LoadDataDBRemot() se agrega las línea para que se escriba en la entidad local PedidoDetalleAsignado la información de la BBDD remota.
+- Se agrega la Interfaz IColectorStore.
+- En la clase BaseVIewModel se agrega la línea para que el ViewModel de Colector pueda acceder a la interfaz:  public IColectorStore<Colector> ColectorStore => DependencyService.Get<IColectorStore<Colector>>();
+- Se crea la clase MockColectorStore en la carpeta "Services".
+
+
+Aplicación App45W v1.1 v1.0 11-05-23 
+
+- Se quota la siguiente lína de AboutViewModel.cs y se coloca en el proceso OnStart() de App.xaml.cs: PopUpMessage.Show("Conexión Base de Datos MySql", DbMySql.DbMySql.Connect() ? "OK" : "Error");
+- Se crea en el proyecto una carpeta llamda Interface y en ella una interzaz IOperadorStore.
+- Se crea en la carpeta Services una clase llamada MockOperadorStore. 
+- Se crea en la clase DbLocal una función GetOperadoresAsync() que devuelve una lista con los operadores cargados en la tabla Operadores de la BBDD local. 
+- Se crea en la clase DbMySql una función GetOperadoresAsync() que devuelve una lista con los operadores cargados en la tabla Operadores de la BBDD remota. 
+- Se crea una función LoadDataDBRemot() en la clase página de inicio App.xaml.cs que carga a la tabla Operador de la BBDD local, los datos de la tabla operadores de la BBDD remota.
+- Se agrega la lína   await LoadDataDBRemot(); en el proceso OnStart() de la página principal App.xaml.cs para que al iniciarse la aplicaci+on cargue la tabla local Operador.
+- Se agrega la lína public IOperadorStore<Operador> OperadorStore => DependencyService.Get<IOperadorStore<Operador>>(); en la clase BaseViewModel.
+
+
+Aplicación App45W v1.1 v1.0 04-05-23 
+-------------------------------------
+
+-Se crea pantalla de Login. Inicialmente usuario y contraseña están hardcodeados en código. Falta validar con la tabla Operadoes de la BBDD. 
+- Se crea ña entidad Operadores.
+-Se crea un nuevo método en la clase DbMySql llamado GetOperadores() que trae toda la tabla Operadores de la BBDD remota. 
+
+FALTA: Resolver el error 1045 de conectividad de la aplicación con la BBDD remota. 
+
+Aplicación App45W v1.0 v1.0 24-04-23 Version inicial
+----------------------------------------------------
+
+- Se crea modulo de conectividad con MySQL a travez de una clase estatica con nombre DbMySql en Services.
+Esta clase provee funcionalidad basica de conexion remota con un motor MySql utilizando el conector  "MySqlConnector".
+- Se agrega funcionalidad de dialogo de configuracion de parametros y modelo de datos para la configuracion.
+
+- Se agrega Libreria Nuget sqlite-net-pcl para gestion de motor de base de datos SQLite de modo Local.
+- Se crea tabla de Capturas de piezas como base para demostrar funcionamiento del motor SQLLite.
+
+
+FALTA:
+. Reorganizar Menu general.
+
+

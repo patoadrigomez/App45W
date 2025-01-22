@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.OperadoresDetaliPage"
+             Title="Operadores Datail Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding OperadorId}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nombre:" FontSize="Medium" />
+            <Label Text="{Binding Nombre}" FontSize="Small"/>
+            <Label Text="Pass:" FontSize="Medium" />
+            <Label Text="{Binding Password}" FontSize="Small"/>
+            <Label Text="Tipo:" FontSize="Medium" />
+            <Label Text="{Binding Tipo}" FontSize="Small"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

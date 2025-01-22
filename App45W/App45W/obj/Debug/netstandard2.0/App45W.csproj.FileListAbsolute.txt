@@ -1,0 +1,305 @@
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\bin\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\bin\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\EDA51Test\EDA51Test\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Desarrollo\Software\Android\Colector Honeywell EDA51\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Users\Admin\Desktop\App45W v1.0\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.xml
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CopyComplete
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\EventosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\EventosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Proyectos de desarrollo\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresDetaliPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\EventosPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresDetaliPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.xml
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\EventosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresDetaliPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CopyComplete
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidosAsignadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PreparacionesAsignadasPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidosAsignadosPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PreparacionesAsignadasPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidoAsignadosTodos.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidoAsignadosTodos.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ColectasRealizadasPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\RegistrosNoExportadosPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ColectasRealizadasPage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\RegistrosNoExportadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AcercaDePage.xaml.g.cs
+C:\Desarrollo\Software\Android\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AcercaDePage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AcercaDePage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ColectasRealizadasPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresDetaliPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidoAsignadosTodos.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidosAsignadosPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PreparacionesAsignadasPage.xaml.g.cs
+C:\Users\Admin\Desktop\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\RegistrosNoExportadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.xml
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AcercaDePage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ColectasRealizadasPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\EventosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresDetaliPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidoAsignadosTodos.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidosAsignadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PreparacionesAsignadasPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\RegistrosNoExportadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CopyComplete
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\prueba\App45W v1.1\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.deps.json
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\bin\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\bin\Debug\netstandard2.0\MySql.Data.xml
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\AcercaDePage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ColectasRealizadasPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ConfigPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\EventosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsCapturesPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemCapturePage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresDetaliPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\OperadoresPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidoAsignadosTodos.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PedidosAsignadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\PreparacionesAsignadasPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\Views\RegistrosNoExportadosPage.xaml.g.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfoInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.AssemblyInfo.cs
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CoreCompileInputs.cache
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.csproj.CopyComplete
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\refint\App45W.dll
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\App45W.pdb
+C:\Users\usuario\OneDrive\Escritorio\App45W v1.2\App45W\App45W\App45W\obj\Debug\netstandard2.0\ref\App45W.dll

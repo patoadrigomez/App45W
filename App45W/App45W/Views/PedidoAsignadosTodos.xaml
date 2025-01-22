@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.PedidoAsignadosTodos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <ListView ItemsSource="{Binding PedidosAsignadosTodos}" Margin="10,25">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Grid.Column="0" Grid.Row="0" Orientation="Horizontal">
+                                    <Label Text="{Binding PedidoNumero}" />
+                                    <Label Text="{Binding PreparacionNumero}" />
+                                    <Label Text="{Binding Registro}" />
+                                    <Label Text="{Binding Cantidad}" />
+                                    <Label Text="{Binding UndsAPreparar}" />
+                                    <Label Text="{Binding CantidadPreparada}" />
+                                    <Label Text="{Binding Finalizado}" />
+                                    <Label Text="{Binding IdEstadoArticuloAsignado}" />
+                                    <Label Text="{Binding Gestionado}" />
+                                </StackLayout>
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.PedidosAsignadosPage"
+             Title="Pedidos-Preparaciones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Pedidos - Preparaciones Asignadas"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Medium"/>
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" Margin="0,10,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="PREP." Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="16" HorizontalTextAlignment="Center"/>
+                    <Label Text="PEDIDO" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" FontSize="16" HorizontalTextAlignment="Center"/>
+                    <Label Text="FECHA" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" FontSize="16" HorizontalTextAlignment="Center"/>
+                    <Label Text="CLIENTE" Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="3" FontSize="16" HorizontalTextAlignment="Center"/>
+                </Grid>
+                <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,5,0,5"/>
+                <ScrollView>
+                    <ListView x:Name="lvw_PedidosAsignados" ItemsSource="{Binding PedidosPreparacionesAsignados}" ItemSelected="OnItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+
+
+
+                                        <Label Text="{Binding PreparacionClaveUnica}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="15" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding PedidoClaveUnica}"  Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" FontSize="15" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding PedidoFecha}"  Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" FontSize="15" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding ClienteNombre}" Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="3" FontSize="15" HorizontalTextAlignment="Center"/>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

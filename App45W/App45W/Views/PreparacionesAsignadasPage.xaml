@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App45W.Views.PreparacionesAsignadasPage"
+             Title="Edición de Cantidades y Envases">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="4*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Text="PEDIDO" Grid.Row="0" Grid.Column="0" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label Text="PREP." Grid.Row="0" Grid.Column="1" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label Text="FECHA" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label Text="CLIENTE" Grid.Row="0" Grid.Column="4" FontSize="14" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+
+                    <Label Text="{Binding PedidoClaveUnica}" Grid.Row="1" Grid.Column="0" FontSize="15" HorizontalTextAlignment="Center" />
+                    <Label Text="{Binding PreparacionClaveUnica}" Grid.Row="1" Grid.Column="1" FontSize="15" HorizontalTextAlignment="Center"/>
+                    <Label Text="{Binding FechaPedido}" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" FontSize="15" HorizontalTextAlignment="Center"/>
+                    <Label Text="{Binding ClienteNombre}" Grid.Row="1" Grid.Column="4" FontSize="15" HorizontalTextAlignment="Center"/>
+
+                </Grid>
+
+            </StackLayout>
+           
+            <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,0,0,0"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="{Binding CodigoArticulo,StringFormat='COD: {0}'}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" FontSize="25" FontAttributes="bold" HorizontalTextAlignment="Center"/>
+                <Label Text="{Binding Articulo}" FontSize="18" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="UBICACIÓN" FontSize="14" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"/>
+                <Label Text="{Binding UbicacionAtriculo}" FontSize="14" FontAttributes="Bold" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="4" HorizontalTextAlignment="Center"/>
+                <Label Text="UNDS X ENVASE" FontSize="14" FontAttributes="Bold" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"/>
+                <Label Text="{Binding UnidadesPorEnvase}" FontSize="14" FontAttributes="Bold" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="4" HorizontalTextAlignment="Center"/>
+
+                <Label Text="Unds a Preparar" BackgroundColor="Aquamarine" FontSize="14" HorizontalTextAlignment="Center"  HorizontalOptions="Center" Grid.Row="4" Grid.Column="0" VerticalOptions="Center"/>
+                <Label Text="Unds Pendientes" FontSize="14" HorizontalTextAlignment="Center"  HorizontalOptions="Center" Grid.Row="4" Grid.Column="1" VerticalOptions="Center"/>
+                <Label Text="Env a preparar" BackgroundColor="LightSalmon" FontSize="14" HorizontalTextAlignment="Center" HorizontalOptions="Center" Grid.Row="4" Grid.Column="3" VerticalOptions="Center"/>
+                <Label Text="Env Pendientes" FontSize="14" HorizontalTextAlignment="Center" HorizontalOptions="Center" Grid.Row="4" Grid.Column="4" VerticalOptions="Center"/>
+
+
+
+
+                <Label Text="{Binding UnidadesAPreparar}" FontSize="15" FontAttributes="bold" HorizontalOptions="Center" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" VerticalOptions="Center"/>
+                <Label Text="{Binding UnidadesPendientes}" FontSize="15" FontAttributes="bold" HorizontalOptions="Center" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" VerticalOptions="Center"/>
+                <Label Text="{Binding EnvasesAPreparar}" FontSize="15" FontAttributes="bold" HorizontalOptions="Center" Grid.Row="5" Grid.Column="3" HorizontalTextAlignment="Center" VerticalOptions="Center"/>
+                <Label Text="{Binding EnvasesPendientes}" FontSize="15" FontAttributes="bold" HorizontalOptions="Center" Grid.Row="5" Grid.Column="4" HorizontalTextAlignment="Center" VerticalOptions="Center"/>
+
+                <Frame Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" HeightRequest="100" BackgroundColor="Aquamarine">
+                    <FlexLayout Direction="Column">
+                        <Label Text="UNIDADES" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        <Entry x:Name="ent_cantidad" Text="{Binding Unidades, Mode=TwoWay}" Keyboard="Numeric" IsEnabled="{Binding EntCantidad}" Placeholder="0" FontSize="18" HorizontalTextAlignment="Center" VerticalOptions="Center"></Entry>
+                    </FlexLayout>
+                </Frame>
+                <Frame Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="3" HeightRequest="100" BackgroundColor="LightSalmon">
+                    <FlexLayout Direction="Column">
+                        <Label Text="ENVASES" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center"/>
+                        <Entry x:Name="ent_envases" Text="{Binding Envases, Mode=TwoWay}" Keyboard="Numeric" FontSize="18" Placeholder="0" HorizontalTextAlignment="Center" VerticalOptions="Center"></Entry>
+                    </FlexLayout>
+                </Frame>
+
+                <StackLayout Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="btn_registrar" Text="REGISTRAR" HeightRequest="50" WidthRequest="150" FontSize="15" FontAttributes="Bold" IsEnabled="{Binding BotonesActivados}" Clicked="btn_registrar_Clicked"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="8" Grid.Column="3" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="btn_faltaStock" Text="FALTA STOCK" HeightRequest="50" WidthRequest="150" FontSize="15" FontAttributes="Bold" Clicked="btn_faltaStock_Clicked" BackgroundColor="red" />
+                </StackLayout>
+            </Grid>
+
+            
+            <BoxView HeightRequest="3" BackgroundColor="Aquamarine" VerticalOptions="Fill" Margin="0,10,0,0"/>
+            <Button x:Name="btn_GoToHomePage"
+                     Text="Ir a la pantalla de inicio"
+                     HeightRequest="50"
+                     BackgroundColor="{StaticResource Primary}"
+                     Clicked="btn_GoToHomePage_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
